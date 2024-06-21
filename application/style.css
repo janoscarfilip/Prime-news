@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+header{
+    display: grid;
+    grid-template-columns: 6vw 1fr 1fr;
+    text-align: center;
+    margin: 4vh;
+}
+#greencircle{
+    grid-column: 1;
+    justify-self: center;
+    align-self: center;
+    width: 6vh;
+}
+#logo_text{
+    grid-column: 2;
+    justify-self: left;
+    margin-left: 3vh;
+}
+#output{
+    display: grid;
+    grid-template-columns: 0.75fr 1fr 0.75fr;
+}
