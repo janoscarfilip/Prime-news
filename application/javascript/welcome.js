@@ -1,14 +1,27 @@
-const welcomeBox = document.getElementById("welcomeBox");
-const acceptBtn = document.querySelector(".welcomeButton");
-const content = document.getElementById("content");
-let logo = document.getElementById('logo_img');
+document.addEventListener('DOMContentLoaded', (event) => {
+    const modalOverlay = document.getElementById('modalOverlay');
+    const closeModal = document.getElementById('welcomeButton');
 
-acceptBtn.onclick = () => {
-    welcomeBox.style.opacity = '0';
-    welcomeBox.style.visibility = 'hidden';
-    setTimeout(() => {
-        welcomeBox.style.display = 'none';
-    }, 500); // Match the duration of the CSS transition
-    content.style.backgroundColor = "rgba(0, 0, 0, 0)";
-    logo.style.opacity = "1";
-}
+    if (modalOverlay && closeModal) {
+      // Close modal functionality
+    closeModal.addEventListener('click', () => {
+        modalOverlay.style.display = 'none';
+    });
+
+      // Prevent clicking outside the modal to close it
+    modalOverlay.addEventListener('click', (e) => {
+        if (e.target === modalOverlay) {
+          e.stopPropagation(); // Prevent the event from propagating to the overlay
+        }
+    });
+
+      // Optionally, you can also prevent the user from closing the modal with the ESC key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            e.stopPropagation();
+        }
+    });
+    } else {
+        console.error('Modal overlay or close button not found in the DOM.');
+    }
+});
