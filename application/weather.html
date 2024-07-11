@@ -41,7 +41,7 @@
                 <a href="index.html" id="logo_img">
                     <img src="images/logo (Roboto, Condensed Extrabold Italic).png" id="logo_top" alt="Prime news logo">
                 </a>
-                <a href=".">
+                <a onclick="topFunction(); setTimeout(function() { window.location.reload(); }, 1000);" id="refresh_page_button">
                     <img src="images/logo (Roboto, Condensed Extrabold Italic).png" id="logo_scroll" class="logo_invisible" alt="Prime news logo">
                 </a>
                 <div id="date_box">
@@ -60,6 +60,7 @@
             <!-- 5. Javascript  -->
             <script src="javascript/date.js"></script>
             <script src="javascript/scroll_header.js"></script>
+            <script src="javascript/scroll_to_top.js"></script>
             <script src="javascript/welcome.js"></script>
         </div>
     </body>

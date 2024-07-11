@@ -103,6 +103,9 @@ header{
     opacity: 0.5;
     z-index: 13;
 }
+#refresh_page_button{
+    cursor: pointer;
+}
 #logo_top{
     width: 200px;
     height: 75px;
