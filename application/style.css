@@ -93,7 +93,7 @@ body{
 
 header{
     display: grid;
-    grid-template-columns: 200px 14vw 1fr;
+    grid-template-columns: 200px 14vw 0.5vw 5vw;
     grid-template-rows: 75px;
     grid-gap: 1vw;
     margin: 3vh;
@@ -129,6 +129,21 @@ header{
 #date{
     text-align: center;
     font-weight: bold;
+}
+#header_divider_img{
+    width: 5px;
+}
+#weather_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+#weather{
+    font-weight: bold;
+}
+#weather_clickthrough{
+    width: 30px;
 }
 
 #home_feed{
