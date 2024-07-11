@@ -130,22 +130,6 @@ header{
     text-align: center;
     font-weight: bold;
 }
-#header_divider_img{
-    width: 5px;
-}
-#weather_box{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    align-items: center;
-    grid-gap: 10px;
-}
-#weather{
-    font-weight: bold;
-}
-#weather_clickthrough{
-    width: 30px;
-}
 
 #home_feed{
     padding-top: 200vh;
