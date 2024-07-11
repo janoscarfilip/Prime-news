@@ -95,6 +95,7 @@ header{
     display: grid;
     grid-template-columns: 200px 14vw 1fr;
     grid-template-rows: 75px;
+    grid-gap: 1vw;
     margin: 3vh;
 }
 #logo_img{
@@ -120,6 +121,15 @@ header{
 .logo_visible{
     opacity:1;
 }
+
+#date_box{
+    align-self: center;
+}
+
+#date{
+    text-align: center;
+}
+
 #home_feed{
     padding-top: 200vh;
     display: grid;
