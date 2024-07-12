@@ -140,10 +140,15 @@ header{
 }
 
 #home_feed{
-    padding-top: 200vh;
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 #section1{
     grid-column: 2;
+}
+.news_img{
+    width: 50vw;
+}
+h2{
+
 }
