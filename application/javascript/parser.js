@@ -14,8 +14,10 @@ function displayData(data) {
         const content = articles[i].getElementsByTagName('content')[0].textContent;
 
         const articleDiv = document.createElement('div');
-        articleDiv.innerHTML = `<h2>${headline}</h2>
-                                <p><strong>Image:</strong> ${img}</p>
+        articleDiv.classList.add('article-container');
+        articleDiv.innerHTML = `
+                                <img src="${img}" class="news_img" alt="News-image"></img>
+                                <h2>${headline}</h2>
                                 <p>${content}</p>`;
         home_feed.appendChild(articleDiv);
     }

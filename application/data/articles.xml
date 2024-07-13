@@ -1,6 +1,26 @@
 <articles>
     <article>
-        <img>HEJ</img>
+        <img>https://oscarswebsite.se/application/images/sean-pollock-PhYq704ffdA-unsplash.jpg</img>
+        <headline>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, deserunt?</headline>
+        <content>Lorem ipsum dolor sit amet consectetur adipisicing elit.</content>
+    </article>
+    <article>
+        <img>https://oscarswebsite.se/application/images/sean-pollock-PhYq704ffdA-unsplash.jpg</img>
+        <headline>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, deserunt?</headline>
+        <content>Lorem ipsum dolor sit amet consectetur adipisicing elit.</content>
+    </article>
+    <article>
+        <img>https://oscarswebsite.se/application/images/sean-pollock-PhYq704ffdA-unsplash.jpg</img>
+        <headline>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, deserunt?</headline>
+        <content>Lorem ipsum dolor sit amet consectetur adipisicing elit.</content>
+    </article>
+    <article>
+        <img>https://oscarswebsite.se/application/images/sean-pollock-PhYq704ffdA-unsplash.jpg</img>
+        <headline>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, deserunt?</headline>
+        <content>Lorem ipsum dolor sit amet consectetur adipisicing elit.</content>
+    </article>
+    <article>
+        <img>https://oscarswebsite.se/application/images/sean-pollock-PhYq704ffdA-unsplash.jpg</img>
         <headline>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, deserunt?</headline>
         <content>Lorem ipsum dolor sit amet consectetur adipisicing elit.</content>
     </article>
