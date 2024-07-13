@@ -16,9 +16,11 @@ function displayData(data) {
         const articleDiv = document.createElement('div');
         articleDiv.classList.add('article-container');
         articleDiv.innerHTML = `
-                                <img src="${img}" class="news_img" alt="News-image"></img>
-                                <h2>${headline}</h2>
-                                <p>${content}</p>`;
+                                <a href="https://oscarswebsite.se/application/news/news` + i + `.html">
+                                    <img src="${img}" class="news_img" alt="News-image"></img>
+                                    <h2>${headline}</h2>
+                                    <p>${content}</p>
+                                </a>`;
         home_feed.appendChild(articleDiv);
     }
     if (home_feed.innerHTML === '') {

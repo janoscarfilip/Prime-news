@@ -139,9 +139,27 @@ header{
     width: 30px;
 }
 
-#home_feed{
+article{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+}
+#ad_1{
+    grid-column: 1;
+    justify-self: center;
+}
+#ad_1 img{
+    width: 15vw;
+    position: fixed;
+    left: 5vw;
+}
+#ad_2{
+    grid-column: 3;
+    justify-self: center;
+}
+#ad_2 img{
+    width: 15vw;
+    position: fixed;
+    right: 5vw;
 }
 .article-container{
     grid-column: 2;
@@ -149,6 +167,9 @@ header{
 .news_img{
     width: 50vw;
 }
-h2{
-
+.article-container a h2, p{
+    color: black;
+}
+.article-container a{
+    text-decoration: none;
 }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Prime news</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--
+        ========================
+            Table of contents
+        ========================
+        1. Links
+        2. Header
+        3. Article
+        4. Footer
+        5. Javascript
+        -->
+        <!-- 1. Links  -->
+        <!-- Favicon  -->
+        <link rel="icon" type="image/png" href="https://oscarswebsite.se/application/images/RedCircle.png">
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body id="body">
+        <div id="content">
+            <!-- 2. Header -->
+            <header>
+                <a href="https://oscarswebsite.se/application/index.html" id="logo_img">
+                    <img src="https://oscarswebsite.se/application/images/logo (Roboto, Condensed Extrabold Italic).png" id="logo_top" alt="Prime news logo">
+                </a>
+                <a onclick="topFunction(); setTimeout(function() { window.location.reload(); }, 1000);" id="refresh_page_button">
+                    <img src="https://oscarswebsite.se/application/images/logo (Roboto, Condensed Extrabold Italic).png" id="logo_scroll" class="logo_invisible" alt="Prime news logo">
+                </a>
+                <div id="date_box">
+                    <p id="date"></p>
+                </div>
+                <div id="header_divider">
+                    <img src="https://oscarswebsite.se/application/images/header_divider.png" id="header_divider_img" alt="|">
+                </div>
+                <div id="weather_box">
+                    <p id="weather">Väder</p>
+                    <a href="https://oscarswebsite.se/application/weather.html">
+                        <img src="https://oscarswebsite.se/application/images/clickthrough.png" id="weather_clickthrough" alt="A clickthrough image">
+                    </a>
+                </div>
+            </header>
+            <!-- 3. Article -->
+            <article id="home_feed">
+            </article>
+            <!-- 4. Footer  -->
+            <footer>
+            </footer>
+            <!-- 5. Javascript  -->
+            <script src="https://oscarswebsite.se/application/javascript/date.js"></script>
+            <script src="https://oscarswebsite.se/application/javascript/parser2.js"></script>
+            <script src="https://oscarswebsite.se/application/javascript/scroll_header.js"></script>
+            <script src="https://oscarswebsite.se/application/javascript/scroll_to_top.js"></script>
+        </div>
+    </body>
+</html>
