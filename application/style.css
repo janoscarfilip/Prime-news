@@ -173,3 +173,9 @@ article{
 .article-container a{
     text-decoration: none;
 }
+
+#ad_1_canvas {
+    width: 10vw;
+    height: 35vh;
+    background: #00b4ff;
+}
